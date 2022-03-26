@@ -1,56 +1,49 @@
 @media only screen and (max-width: 1025px) {
-    .root {
-      display: block;
+    body {
+      width: 98%;
+      height: 94vh;
+      margin: 0px;
+      padding: 10px;
+    }
+  
+    div#root {
       width: 100%;
       height: 100%;
-      background-color: aqua;
     }
-    .conatiner {
-      display: block;
+  
+    .main {
       width: 100%;
-      height: 87vh;
-      /* background-color: aqua; */
+      height: 100%;
     }
-    .yellow-container {
+  
+    .container {
       width: 100%;
       height: 33.33%;
       display: flex;
-      margin-bottom: 20px;
-    }
-    .yellow-div {
-      width: 48%;
-      height: 97%;
-      background-color: yellow;
-      margin: 10px;
-    }
-    .pink-conatiner {
-      /* display: block; */
-      width: 100%;
-      height: 33.33%;
       margin-bottom: 10px;
-      
+    }
+  
+    .yellow-div {
+      background-color: yellow;
+      height: 100%;
+      width: 50%;
+      margin-right: 10px;
+      margin-left: 10px;
     }
   
     .pink-div {
-      /* display: block; */
-      width: 97.5%;
-      height: 97%;
-      margin: 10px;
-      
-      background-color: rgb(228, 60, 88);
-    }
-  
-    .blue-container {
-      display: flex;
+      background-color: deeppink;
+      height: 100%;
       width: 100%;
-      height: 33.33%;
-      margin-bottom: 20px;
+      margin-right: 10px;
+      margin-left: 10px;
     }
   
     .blue-div {
       width: 33.33%;
-      height: 97%;
-      background-color: rgb(94, 181, 216);
-      margin: 10px;
+      height: 100%;
+      background-color: lightskyblue;
+      margin-right: 10px;
+      margin-left: 10px;
     }
   }

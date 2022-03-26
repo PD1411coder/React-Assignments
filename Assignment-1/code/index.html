@@ -15,25 +15,24 @@
     <script type="text/babel">
 //React Code here
 
-let division = (
-  <div class="conatiner">
-    <div class="yellow-container">
+const App = (
+        <div class="main">
+          <div class="container">
       <div class="yellow-div"></div>
       <div class="yellow-div"></div>
     </div>
-    <div class="pink-conatiner">
+    <div class="container">
       <div class="pink-div"></div>
     </div>
-    <div class="blue-container">
+    <div class="container">
       <div class="blue-div"></div>
       <div class="blue-div"></div>
       <div class="blue-div"></div>
     </div>
-  </div>
- 
-);
+        </div>
+    );
 
- ReactDOM.render(<div>{division}</div>,document.getElementById('root'));
+ ReactDOM.render(App,document.getElementById('root'));
 
 </script>
 <!--
