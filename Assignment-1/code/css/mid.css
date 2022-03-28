@@ -42,6 +42,10 @@
     .container:last-child {
       display: block;
     }
+    .blue-div:last-child{
+      display: none;
+    }
+
     .blue-div {
       width: 97.5%;
       height: 50%;

@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1025px) {
+ @media only screen and (min-width: 770px) { 
     body {
       width: 98%;
       height: 94vh;
@@ -46,4 +46,22 @@
       margin-right: 10px;
       margin-left: 10px;
     }
-  }
+  } 
+  /* }
+  /* @media only screen and (max-width: 769px) {
+
+    .blue-div:last-child {
+        display:none;
+        
+    }
+    .container:last-child{
+        display:block;
+    }
+    .blue-div {
+        width:97.5%;
+        height:48%;
+        margin-bottom:10px;  
+        
+}
+    
+} */
