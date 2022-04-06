@@ -2,6 +2,7 @@ import { render, screen } from '@testing-library/react';
 import Enzyme from "enzyme";
 import App from './App';
 
+
 import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 
 const { shallow } = Enzyme;

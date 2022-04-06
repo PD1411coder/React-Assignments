@@ -1,4 +1,5 @@
 body {
+  
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +12,128 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  border-bottom: 2px solid green;
+  width: 100%;
+  height: 10vh;
+  padding-bottom: 5px;
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0;
+
+}
+.logo{
+  float: left;
+  margin-left: 25px;
+  justify-content: center;
+  color:green;
+  margin-top: 15px;
+}
+.camera-logo{
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin: 15px;
+  padding-right: 90px;
+}
+.card {
+  width: 40vw;
+  height: 50vh;
+  margin: auto;
+  margin-bottom: 34px;
+  border: 1px #dfdede solid;
+  border-radius: 5px;
+}
+.card:first-child{
+    margin-top: 100px;
+}
+
+.name-location {
+  display: block;
+}
+
+h3 {
+  margin: 9px;
+  width: 40px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+.location{
+  margin: 0px;
+  margin-left: 9px;
+  text-align: left;
+}
+
+/* p {
+  
+  color: gray;
+  float: left;
+  margin: 0px;
+  margin-left: 14px;
+} */
+
+img {
+  height: 30vh;
+  width: 100%;
+  margin: auto;
+}
+
+.options {
+      float: right;
+      height: 27px;
+      margin-right: 15px;
+      font-size: xx-large;
+      line-height: 5px;
+}
+
+.info{
+  display: inline-block;
+}
+
+.like-send-button {
+  float: left;
+  margin-left: 2%;
+  font-size: x-large;
+  line-height: 10px;
+  height: 30%;
+
+}
+.sendbutton{
+  transform: rotate();
+-webkit-transform: rotate(-31deg);
+display: inline-block;
+margin-left: 8px;
+}
+.likebutton{
+  font-size: 28px;
+}
+.date {
+  font-size: x-small;
+  color: gray;
+  float: right;
+  margin-right: 7px;
+}
+p.desc {
+  float: left;
+  /* width: 68%; */
+  /* justify-content: stretch; */
+}
+
+.likes {
+  float: left;
+  margin-right: 150px;
+  margin-top: 5px;
+  margin-left: 8px;
+  color: gray;
+  font-size: 11px;
+}
+
+.desc {
+  float: left;
+  margin-left: 8px;
+  font-weight: 500;
+}
+
+
+
